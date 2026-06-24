@@ -1,6 +1,6 @@
 
 import { HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
-import { ApplicationConfig, importProvidersFrom, DOCUMENT } from '@angular/core';
+import { ApplicationConfig, DOCUMENT, importProvidersFrom } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideRouter } from '@angular/router';
 
@@ -17,7 +17,7 @@ import {
   GoogleLoginProvider,
   SocialAuthServiceConfig,
   SocialLoginModule,
-} from '@abacritt/angularx-social-login';
+} from '@abuelwiss/angularx-social-login';
 
 const httpLoaderFactory: (http: HttpClient, doc: Document) => TranslateHttpLoader = (http: HttpClient, doc: Document) => {
   const baseHref = doc.getElementsByTagName('base')[0].href;

@@ -18,7 +18,7 @@ import { SignInUpDirective } from '../../directives/sign-in-up/sign-in-up.direct
 import { EAuthDialogResult } from '../../enums/auth.enum';
 import { IAuth, IAuthForm } from '../../interfaces/auth.interface';
 
-import { FacebookLoginProvider, GoogleSigninButtonDirective, SocialAuthService } from '@abacritt/angularx-social-login';
+import { FacebookLoginProvider, GoogleSigninButtonDirective, SocialAuthService } from '@abuelwiss/angularx-social-login';
 
 
 @Component({

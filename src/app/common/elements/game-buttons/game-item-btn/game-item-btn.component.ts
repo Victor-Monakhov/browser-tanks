@@ -13,7 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
   ],
   templateUrl: './game-item-btn.component.html',
   styleUrl: './game-item-btn.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GameItemBtnComponent {
 
